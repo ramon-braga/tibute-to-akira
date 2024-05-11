@@ -1,0 +1,49 @@
+header {
+    height: 120px;
+    width: 100%;
+    box-shadow: 0 2px 10px #ddd;
+}
+
+.logo img {
+    height: auto;
+    width: 150px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    font-size: 1.3rem;
+    gap: 50px;
+}
+
+.menu ul li a:hover {
+    text-decoration: underline;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu_mobile div {
+    width: 40px;
+    height: 40px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu_mobile div .bar {
+    height: 5px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #000;
+}
+
+.menu_mobile div:hover {
+    cursor: pointer;
+}
